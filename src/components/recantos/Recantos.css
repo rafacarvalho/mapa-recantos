@@ -1,0 +1,62 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+.recantos{
+    padding-top: 15px;
+}
+
+.recantos .search-container{
+    margin: 0 15px 15px;
+}
+
+.recantos #map-button{ position: fixed; }
+
+.recantos h3, .recantos span{ color: #484848; }
+#top{
+    background-color: #004077;
+    position: fixed;
+    z-index: 5;
+    right: 15px;
+    bottom: 105px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 3px;
+    border: none;
+}
+
+.search-form{
+    display: block;
+    margin-top: 50px;
+}
+
+.result-label{
+    padding: 0 15px;
+}
+
+.carousel .control-dots{ padding: 0; }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .recantos .search{
+        margin: 0;
+    }
+    .search-form{ padding: 0; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }

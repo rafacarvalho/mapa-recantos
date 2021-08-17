@@ -1,0 +1,117 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+#content {
+    background-color: #fcc01c;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+#content .heading{
+    text-align: center;
+    padding: 0 15px;
+    font-size: 22px;
+}
+
+#content h2{
+    font-size: 24px;
+    color: #484848;
+}
+
+#content .card-img-overlay h3{
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+    z-index: 5;
+    position: relative;
+    color: #fff;
+}
+
+#content .align-middle{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#content .border-none{ border: none; }
+
+.card-transparent{
+    background-color: transparent;
+    color: #484848;
+    text-align: left;
+}
+
+.card-transparent span{
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-transparent .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-transparent small{
+    color: #ca4800;
+}
+
+.conheca{
+    position: relative;
+    overflow: hidden;
+}
+
+.conheca .fixed-image{
+    position: relative;
+    z-index: 1;
+}
+
+.conheca .fixed-image img{
+    min-height: 220px;
+}
+
+.single-link:hover{
+    text-decoration: none;
+}
+
+.single-link:hover h3{ color: #ca4800; }
+
+.single-link:hover small{ color: #000; }
+
+.float-box{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+.btn-about{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .float-box{ width: 40%; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .float-box{ width: 35%; }
+}

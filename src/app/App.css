@@ -1,0 +1,44 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+body{
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    background-color: #4d2712;
+}
+
+.App[scroll="disabled"]{
+    overflow: hidden;
+    height: 100vh;
+}
+
+#generic {
+    background-color: #fcc01c;
+    width: 100%;
+    margin: 0;
+}
+
+#generic h1{
+    color: #4d2712;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.hide{ display: none; }
+
+.relative{ position: relative; }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }

@@ -1,0 +1,54 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+#topo{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+#topo .logo{
+    margin: 10px 15px;
+    padding: 0;
+    display: block;
+}
+
+#topo .logo img{
+    display: inline-block;
+    width: 35px;
+}
+
+#topo .logo .fas, #topo .logo .fa{
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.map{
+    background-color: #4d2712;
+}
+
+#topo.map .logo{
+    text-align: left;
+}
+
+#topo.map .logo img{
+    width: 155px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }

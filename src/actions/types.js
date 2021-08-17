@@ -1,0 +1,13 @@
+export const TOGGLE_MENU = 'TOGGLE_MENU';
+export const FETCH_MAP = 'FETCH_MAP';
+export const SHOW_INFOWINDOW = 'SHOW_INFOWINDOW';
+export const INFOWINDOW_STATUS = 'INFOWINDOW_STATUS';
+export const LATLNG = 'LATLNG';
+export const SEARCH_LABEL = 'SEARCH_LABEL';
+export const SEARCH_TERM = 'SEARCH_TERM';
+export const SEARCH_SUBMIT = 'SEARCH_SUBMIT';
+export const SELECTED = 'SELECTED';
+export const SET_CONTACT_NAME = 'SET_CONTACT_NAME';
+export const SET_CONTACT_EMAIL = 'SET_CONTACT_EMAIL';
+export const SET_CONTACT_MESSAGE = 'SET_CONTACT_MESSAGE';
+export const TOPBUTTON = 'TOPBUTTON';

@@ -1,0 +1,38 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+.ver-mapa{
+    background-color: #4d2712;
+    color: #fff;
+}
+
+.address{
+    color: #c94800;
+    font-size: 14px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carrossel{
+        background: url("../../images/bg-carrousel.jpg");
+    }
+    .carousel .slide{
+        background-color: transparent;
+        padding: 0 100px;
+    }
+    .carousel .slide img{
+        width: auto;
+        max-height: 386px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
